@@ -1,0 +1,128 @@
+/*
+
+Schema Colori:
+
+https://color.adobe.com/it/create/color-wheel/?base=2&rule=Monochromatic&selected=2&name=Il%20mio%20tema%20Color&mode=rgb&rgbvalues=0.3794163083900441,0.8799999999999999,0.8149371715313309,0.47525068233355533,0.65,0.6272871448452862,0.2500698396207109,0.58,0.5371176812365591,0.643416308390044,0.8799999999999999,0.849250288405926,0.16383886044115542,0.37999999999999995,0.3519046877067111&swatchOrder=0,1,2,3,4
+
+*/
+
+/*
+
+Hex dei colori:
+
+	#61E0D0
+	#79A6A0
+	#409489
+	#A4E0D9
+	#2A615A
+*/
+
+/*
+	Font importati:
+		- Source Code Pro
+		- Poiret One
+		- Crimson Tex
+		- Architect's Daughter
+*/
+
+body {
+	background-color: #fff;
+    color: #2A615A;
+}
+
+a {
+    text-decoration: none;
+    color: #61E0D0;
+}
+
+.header {
+    height: auto;
+    margin-top: 0;
+}
+
+.header a {
+    text-decoration: none;
+}
+
+.title {
+	color: #409489;
+	font-family: 'Poiret One';
+    margin-top: 0;
+}
+
+.quote {
+	color: #A4E0D9;
+	font-family: 'Architects Daughter';
+	font-size: 100%;
+    margin-top:0;
+}
+
+.logo{
+    margin-top: 0;
+    margin-left: 30%;
+    width: 40%;
+}
+
+.main {
+    height: auto;
+}
+
+.infohead {
+	width: 90%;
+	margin-top: 1%;
+	
+	color: #79A6A0;
+	
+	font-family: 'Source Code Pro';
+}
+
+.infocol {
+	width: 37%;
+	margin-left: none;
+	/*border: 1px, solid black;*/
+	float: left;
+	
+	font-family: 'Crimson Text'
+}
+
+.imgcol {
+	width: 61%;
+	margin-right: none;
+    margin-top: 1%;
+    padding: 1%;
+	/*border: 1px, solid black;*/
+	float: right;
+}
+
+.imgcol img {
+    height: auto;
+    width: 89%;
+    margin-left: 7%;
+    margin-bottom: 5%;
+    border: 5px, solid, #61E0D0;
+}
+
+.intro {
+	font-family: 'Crimson Text';
+}
+
+.hoursperweek {
+    margin-top: 15%;
+    margin-bottom: 15%;
+}
+
+.hoursperweek caption{
+    color: #A4E0D9;
+}
+
+.hoursperweek th {
+    color: #A4E0D9;
+}
+
+.footer {
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 93%;
+    font-family: 'Source Code Pro';
+    font-size: 12;
+}
